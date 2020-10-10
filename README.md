@@ -22,7 +22,7 @@ For **OS X**, you can try to follow the Anaconda instructions posted here: https
 
 0. Clone this repository and enter folder (or download, extract and enter folder):
 ```
-git clone https://github.com/DDemmer1/ai-background-remove.git
+git clone https://github.com/petremihaivalentin/backround_remove_dectectron2.git
 ```
 ```
 cd ai-background-remove
