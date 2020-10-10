@@ -56,10 +56,6 @@ OR: Install precompiled Detectron2 for CUDA 10.1:
 ```
 pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
 ```  
-3. Create a new Jupyter kernel which uses the virtual environment you have just created:
-```
-ipython kernel install --user --name=detectron2
-```
 
 ## Run the pretrained model
 
@@ -78,15 +74,4 @@ python detectron2/demo.py --config-file detectron2/lib/python3.7/site-packages/d
 
 ## Object Extraction
 
-Run Jupyter notebook
-
-```
-jupyter notebook
-```
-
-For **background removal** open **bg-remove.ipynb** and make sure the **'detectron2' kernel** is used and run the cells
-
-If you want to instead **analyse** your input corpus open **deep_watching.ipynb** and run the cells (make sure the **'detectron2' kernel** is used)
-
-### If you want to know how to label pictures and train your own networks have a look at https://github.com/ghowa/dhd2020
-
+For **background removal** run **bgRemoval_detectron.py**. Make sure you have the virtual environment activated.
