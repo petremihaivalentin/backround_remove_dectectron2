@@ -62,7 +62,8 @@ pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101
 1. Copy your images with the objects to extract to ai-background-remove/input
 
 2. Run the following network: 
-(If you use a Python version **other than 3.7**. Make sure to change the version in the path )
+(If you use a Python version **other than 3.7**. Make sure to change the version in the path)
+Mask R-CNN is considered state-of-the-art for image segmentation. For other networks and specific weights, check Detectron2's repo.
 
 
 ```
